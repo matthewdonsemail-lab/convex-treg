@@ -1,6 +1,6 @@
 {
   "name": "@listeningkit/treg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Production Convex component for treg.to — the OpenRouter for developer tools. Run, route, and pay for 2,600+ tools through one API and CLI.",
   "type": "module",
   "main": "./dist/client.js",
@@ -12,6 +12,7 @@
     "treg.ts",
     "client.ts",
     "lib",
+    "banner.png",
     "README.md"
   ],
   "exports": {
@@ -57,7 +58,7 @@
     "api-proxy",
     "developer-tools"
   ],
-  "homepage": "https://github.com/superdesigndev/treg",
+  "homepage": "https://treg.to/?ref=matthewdonse-aebsh",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/superdesigndev/treg.git"
