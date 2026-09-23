@@ -1,6 +1,6 @@
 {
   "name": "@listeningkit/treg",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Production Convex component for treg.to — the OpenRouter for developer tools. Run, route, and pay for 2,600+ tools through one API and CLI.",
   "type": "module",
   "main": "./dist/client.js",
