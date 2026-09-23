@@ -61,7 +61,7 @@
   "homepage": "https://treg.to/?ref=matthewdonse-aebsh",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/superdesigndev/treg.git"
+    "url": "git+https://github.com/matthewdonsemail-lab/convex-treg.git"
   },
   "license": "Apache-2.0"
 }
