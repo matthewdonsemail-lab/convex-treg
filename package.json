@@ -1,0 +1,66 @@
+{
+  "name": "@listeningkit/treg",
+  "version": "0.1.0",
+  "description": "Production Convex component for treg.to — the OpenRouter for developer tools. Run, route, and pay for 2,600+ tools through one API and CLI.",
+  "type": "module",
+  "main": "./dist/client.js",
+  "types": "./dist/client.d.ts",
+  "files": [
+    "dist",
+    "convex.config.ts",
+    "schema.ts",
+    "treg.ts",
+    "client.ts",
+    "lib",
+    "README.md"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/client.d.ts",
+      "default": "./dist/client.js"
+    },
+    "./client": {
+      "types": "./dist/client.d.ts",
+      "default": "./dist/client.js"
+    },
+    "./convex.config": {
+      "types": "./dist/convex.config.d.ts",
+      "default": "./dist/convex.config.js"
+    },
+    "./convex.config.js": {
+      "types": "./dist/convex.config.d.ts",
+      "default": "./dist/convex.config.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc --build ./tsconfig.build.json --force",
+    "build:clean": "rm -rf dist && npm run build",
+    "build:codegen": "convex codegen --component-dir ./",
+    "typecheck": "tsc --noEmit --skipLibCheck",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "convex": ">=1.45.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "convex": "^1.46.0",
+    "typescript": "^5.6.3"
+  },
+  "keywords": [
+    "convex",
+    "convex-component",
+    "treg",
+    "tools",
+    "openrouter-for-tools",
+    "api-proxy",
+    "developer-tools"
+  ],
+  "homepage": "https://github.com/superdesigndev/treg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superdesigndev/treg.git"
+  },
+  "license": "Apache-2.0"
+}
