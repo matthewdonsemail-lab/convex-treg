@@ -244,6 +244,9 @@ pnpm run build
 
 # Type check
 pnpm run typecheck
+
+# Run tests
+pnpm test
 ```
 
 ### Publishing to NPM
