@@ -11,6 +11,7 @@
     "schema.ts",
     "treg.ts",
     "client.ts",
+    "test.ts",
     "lib",
     "banner.png",
     "README.md"
@@ -32,13 +33,21 @@
     "./convex.config.js": {
       "types": "./dist/convex.config.d.ts",
       "default": "./dist/convex.config.js"
-    }
+    },
+    "./_generated/component.js": {
+      "types": "./dist/_generated/component.d.ts"
+    },
+    "./_generated/component": {
+      "types": "./dist/_generated/component.d.ts"
+    },
+    "./test": "./test.ts"
   },
   "scripts": {
     "build": "tsc --build ./tsconfig.build.json --force",
     "build:clean": "rm -rf dist && npm run build",
     "build:codegen": "convex codegen --component-dir ./",
     "typecheck": "tsc --noEmit --skipLibCheck",
+    "test": "vitest run",
     "prepare": "npm run build"
   },
   "peerDependencies": {
@@ -47,7 +56,10 @@
   "devDependencies": {
     "@types/node": "^22",
     "convex": "^1.46.0",
-    "typescript": "^5.6.3"
+    "convex-test": "^0.0.60",
+    "typescript": "^5.6.3",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.1"
   },
   "keywords": [
     "convex",

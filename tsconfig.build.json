@@ -14,6 +14,7 @@
     "./schema.ts",
     "./treg.ts",
     "./client.ts",
-    "./lib/**/*.ts"
+    "./lib/**/*.ts",
+    "./_generated/**/*.ts"
   ]
 }

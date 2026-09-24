@@ -75,8 +75,10 @@ export const recordReceipt = internalMutation({
     servedVia: v.optional(v.string()),
     at: v.number(),
   },
+  returns: v.null(),
   handler: async (ctx, args) => {
     await ctx.db.insert("calls", args);
+    return null;
   },
 });
 
