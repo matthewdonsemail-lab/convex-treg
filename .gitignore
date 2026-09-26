@@ -4,3 +4,9 @@ dist/
 .env
 .env.local
 .DS_Store
+
+# Media files live in C:\listeningkit-advertisements, not this repo
+*.mp3
+*.mp4
+YTSave_*
+ElevenLabs_*

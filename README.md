@@ -4,12 +4,21 @@
 
 # @listeningkit/treg (Convex Treg Component)
 
-> A production-ready [Convex Component](https://docs.convex.dev/components) adapting [treg](https://github.com/superdesigndev/treg) — the open-source **"OpenRouter for developer tools"**.
+> A production-ready [Convex Component](https://docs.convex.dev/components) adapting [treg](https://github.com/superdesigndev/treg) — the open-source **"OpenRouter for developer tools."**
 
 [![Convex Component](https://img.shields.io/badge/Convex-Component-blue)](https://docs.convex.dev/components)
 [![npm version](https://img.shields.io/npm/v/@listeningkit/treg.svg)](https://www.npmjs.com/package/@listeningkit/treg)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![treg.to Free $1](https://img.shields.io/badge/Get%20Free%20$1%20Credit-treg.to-purple)](https://treg.to/?ref=matthewdonse-aebsh)
+
+| | |
+|---|---|
+| **Upstream engine** | [superdesigndev/treg](https://github.com/superdesigndev/treg) (Apache-2.0) |
+| **Hosted registry** | [treg.to](https://treg.to/?ref=matthewdonse-aebsh) — 3,000+ catalogued endpoints across 60+ providers |
+| **CLI** | `treg` — `curl -fsSL https://treg.to/install.sh \| sh` |
+| **Community** | [Discord](https://discord.gg/6mQYYfFMAn) |
+| **Component** | `@listeningkit/treg` on [npm](https://www.npmjs.com/package/@listeningkit/treg) |
+| **License** | Apache-2.0 (with additional terms upstream — no competing hosted registry; pass-through use of the treg.to API is fine) |
 
 ---
 
@@ -23,7 +32,7 @@
 
 ## Overview
 
-[`superdesigndev/treg`](https://github.com/superdesigndev/treg) is an open-source tool execution proxy and registry designed as the *OpenRouter for developer tools*. It enables developers and AI agents to route, run, and pay for 2,600+ external tools and APIs (including SpyFu, Firecrawl, SE Ranking, SerpApi, Perplexity, GitHub, Stripe, Resend, and more) through a single unified API, unified billing, and self-hosted proxy with BYOK, OAuth token refreshing, and per-call spend guardrails.
+[`superdesigndev/treg`](https://github.com/superdesigndev/treg) is an open-source tool execution proxy and registry designed as the *OpenRouter for developer tools*. It enables developers and AI agents to route, run, and pay for 3,000+ catalogued endpoints across 60+ external providers (including SpyFu, Firecrawl, SE Ranking, SerpApi, Perplexity, GitHub, Stripe, Resend, and more) through a single unified API, unified billing, and self-hosted proxy with BYOK, OAuth token refreshing, and per-call spend guardrails.
 
 This package (`@listeningkit/treg`) provides the native, fully sandboxed **Convex Component** extension for [treg.to](https://treg.to/?ref=matthewdonse-aebsh). It allows any Convex backend to execute tools directly from Convex actions with zero client credentials on device, automatic spend ceilings, fresh idempotency keys, privacy-preserving attribution, and an isolated audit ledger.
 
@@ -209,7 +218,7 @@ export const getMyToolUsage = query({
 
 ## Catalog, Costs & Failover Strategy
 
-Sign up at **[treg.to/?ref=matthewdonse-aebsh](https://treg.to/?ref=matthewdonse-aebsh)** to get **$1.00 free credit**, which covers thousands of calls across 2,600+ tools.
+Sign up at **[treg.to/?ref=matthewdonse-aebsh](https://treg.to/?ref=matthewdonse-aebsh)** to get **$1.00 free credit**, which covers thousands of calls across 3,000+ catalogued endpoints on 60+ providers.
 
 Search the full catalog at **[treg.to/catalog](https://treg.to/?ref=matthewdonse-aebsh)** or via the unauthenticated search API:
 
@@ -270,4 +279,4 @@ Don't forget to grab your **$1.00 free tool credit** when getting started:
 
 ## License
 
-Apache 2.0. See [superdesigndev/treg](https://github.com/superdesigndev/treg) for upstream engine details.
+Apache 2.0. See [superdesigndev/treg](https://github.com/superdesigndev/treg) for upstream engine details (including its additional terms: use freely, even commercially; pass-through use of the treg.to API is allowed; don't redistribute the code as a competing hosted registry without written permission).

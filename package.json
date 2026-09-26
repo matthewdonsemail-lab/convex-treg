@@ -1,7 +1,30 @@
 {
   "name": "@listeningkit/treg",
-  "version": "0.1.3",
-  "description": "Production Convex component for treg.to — the OpenRouter for developer tools. Run, route, and pay for 2,600+ tools through one API and CLI.",
+  "version": "0.1.4",
+  "description": "Production Convex component for treg.to — the OpenRouter for developer tools. Run, route, and pay for 3,000+ catalogued endpoints across 60+ providers through one API and CLI.",
+  "author": {
+    "name": "ListeningKit",
+    "url": "https://treg.to/?ref=matthewdonse-aebsh"
+  },
+  "maintainers": [
+    {
+      "name": "matthewdonse",
+      "email": "matthewdonsemail@gmail.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "superdesigndev",
+      "url": "https://github.com/superdesigndev"
+    }
+  ],
+  "funding": {
+    "type": "website",
+    "url": "https://treg.to/?ref=matthewdonse-aebsh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "type": "module",
   "main": "./dist/client.js",
   "types": "./dist/client.d.ts",
@@ -68,7 +91,17 @@
     "tools",
     "openrouter-for-tools",
     "api-proxy",
-    "developer-tools"
+    "developer-tools",
+    "ai-agents",
+    "agent-tools",
+    "seo",
+    "serp",
+    "enrichment",
+    "spyfu",
+    "serpapi",
+    "perplexity",
+    "firecrawl",
+    "b2b-lead-gen"
   ],
   "homepage": "https://treg.to/?ref=matthewdonse-aebsh",
   "repository": {
