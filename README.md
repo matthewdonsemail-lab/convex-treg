@@ -280,3 +280,26 @@ Don't forget to grab your **$1.00 free tool credit** when getting started:
 ## License
 
 Apache 2.0. See [superdesigndev/treg](https://github.com/superdesigndev/treg) for upstream engine details (including its additional terms: use freely, even commercially; pass-through use of the treg.to API is allowed; don't redistribute the code as a competing hosted registry without written permission).
+
+---
+
+<!-- footer:offer-set:start -->
+## Support
+
+If this is useful, a star helps someone else find it.
+
+[![Stars](https://img.shields.io/github/stars/matthewdonsemail-lab/convex-treg?style=flat-square)](https://github.com/matthewdonsemail-lab/convex-treg/stargazers)
+[![Forks](https://img.shields.io/github/forks/matthewdonsemail-lab/convex-treg?style=flat-square)](https://github.com/matthewdonsemail-lab/convex-treg/network/members)
+[![Watchers](https://img.shields.io/github/watchers/matthewdonsemail-lab/convex-treg?style=flat-square)](https://github.com/matthewdonsemail-lab/convex-treg/watchers)
+[![Last commit](https://img.shields.io/github/last-commit/matthewdonsemail-lab/convex-treg?style=flat-square)](https://github.com/matthewdonsemail-lab/convex-treg/commits)
+[![License](https://img.shields.io/github/license/matthewdonsemail-lab/convex-treg?style=flat-square)](https://github.com/matthewdonsemail-lab/convex-treg/blob/main/LICENSE)
+
+[![GitHub](https://img.shields.io/badge/GitHub-matthewdonsemail-lab/convex-treg-181717?style=flat-square&logo=github&link=https://github.com/matthewdonsemail-lab/convex-treg)](https://github.com/matthewdonsemail-lab/convex-treg)
+[![X](https://img.shields.io/badge/X-matthewdonsemail-000000?style=flat-square&logo=x&link=https://x.com/matthewdonsemail)](https://x.com/matthewdonsemail)
+[![Issues](https://img.shields.io/github/issues/matthewdonsemail-lab/convex-treg?style=flat-square)](https://github.com/matthewdonsemail-lab/convex-treg/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/matthewdonsemail-lab/convex-treg?style=flat-square)](https://github.com/matthewdonsemail-lab/convex-treg/pulls)
+
+## Star history
+
+[![Star History Chart](https://api.star-history.com/image?repos=matthewdonsemail-lab/convex-treg&type=Date)](https://star-history.com/#matthewdonsemail-lab/convex-treg&Date)
+<!-- footer:offer-set:end -->
